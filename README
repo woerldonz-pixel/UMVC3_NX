@@ -1,0 +1,26 @@
+Ultimate Marvel vs Capcom 3 NX (XBOX 360 version)
+
+by Pixel1243
+https://github.com/woerldonz-pixel/UMVC3_NX
+
+A static recompilation of Ultimate Marvel vs Capcom 3
+
+Although a lot of work has been done on my part to get the game up to my standard performance wise
+
+This has used reNut-NX Ultimate Switch 360 Port Base as template/base
+
+https://gbatemp.net/threads/renut-nx-ultimate-switch-360-port-base.686515/
+
+So credit also to contributors of that template
+
+You will need your own disk of Ultimate Marvel vs Capcom 3 (XBOX 360 version) to play this game
+
+Your UMVC3 folder should be put in the switch directory with the following umvc3.nro, the renderer's shaders (deko3d_shaders.bin, deko3d_glsl.bin) and the game files in game_root/. Start umvc3.nro with a title takeover (hold R while launching an installed game) or a forwarder with full memory (i used the forwarder); the album applet does not give the game enough memory. The game writes katamari.toml (your settings) at its first start.
+
+Recommended settings for performance
+1785 MHz, GPU at 768 MHz and ram at 1600 MHZ which can be set with sys-clk
+
+I tested on my nintendo switch and it appears to run at 60fps most of the time
+
+Known issues:
+Game might sometimes show corrupt/missing graphics while playing though, if this happens i recommend resetting the console the clear the GPU or/and re-copying the game disc files to the SD card again. Personally im not sure what causes that however you may have a better experience, since i couldnt find any actual bugs reported on my logs about the issue
